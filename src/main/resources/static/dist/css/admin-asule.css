@@ -1,0 +1,136 @@
+
+/*.box-outer,.box-header {*/
+/*    color: #444;*/
+/*    display: flex;*/
+/*    height: 50px;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.box-outer{*/
+/*    border-bottom: 1px solid whitesmoke;*/
+/*}*/
+
+/*.box-outer>.box-title{*/
+/*    color: burlywood;*/
+/*    margin: 0;*/
+/*    font-size: 25px;*/
+/*}*/
+
+/*.box-outer>.box-return a{*/
+/*    color: burlywood;*/
+/*    margin-left: 4px;*/
+/*    margin-right: 4px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.box-header> .box-title{*/
+/*    font-size: 20px;*/
+/*    font-weight: 500;*/
+/*}*/
+
+
+
+/*.box-image{*/
+/*    background-color:white;*/
+/*    position: relative;*/
+/*    margin-bottom: 20px;*/
+/*    width: 100%;*/
+/*    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.box-body {*/
+/*    padding: 10px;*/
+/*}*/
+/*.box-body>.thumbnail-box {*/
+/*    height: 160px;*/
+/*    width: 100%;*/
+/*}*/
+
+.help-block{
+    color: #ff1c1c;
+}
+
+
+
+.thumbnail-box .convent_choice{
+    background: url(../img/btn-add-image.png) no-repeat scroll center 25px rgba(0, 0, 0, 0);
+    border: 1px dashed #E6E6E6;
+    /*color: #CCCCCC;*/
+    /*font-size: 18px;*/
+    padding-top: 125px;
+    /*position: relative;*/
+    /*text-align: center;*/
+    /*top: 0;*/
+}
+
+/*.upload_btn {*/
+/*    text-align: center;*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*.upload_btn label {*/
+/*    background-color: #62c162;*/
+/*    color: white;*/
+/*    padding: 6px 0px;*/
+/*    font-size: 40%;*/
+/*    font-weight: bold;*/
+/*    cursor: pointer;*/
+/*    border-radius: 2px;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    display: block;*/
+/*    width: 240px;*/
+/*    margin: 10px auto 0px auto;*/
+/*}*/
+
+/*.upload_btn input {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    margin: 0;*/
+/*    border: solid transparent;*/
+/*    opacity: .0;*/
+/*    filter: alpha(opacity=0);*/
+/*    direction: ltr;*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+/*tag*/
+/*.asule-channel{*/
+/*}*/
+
+/*.taglist>div{*/
+/*    margin-right: 10px;*/
+/*    padding: 10px 10px 10px 10px;*/
+/*    margin-bottom: 20px;*/
+/*    border: 1px solid transparent;*/
+/*    border-radius: 4px;*/
+/*    background-color: #5bc0de;*/
+/*    border-color: #3dced8;*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*.taglist>div>strong{*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.tag-footer{*/
+/*    !*border-top: 1px solid #f4f4f4;*!*/
+/*}*/
+
+/*.btn-asule-primary{*/
+/*    color: #ffffff;*/
+/*    background-color: #2196f3;*/
+/*    border-color: #2196f3;*/
+/*}*/
+
+/*.btn-asule-primary:hover{*/
+/*    color: #ffffff;*/
+/*    background-color: #367fa9;*/
+/*    border-color: #367fa9;*/
+/*}*/
+
+

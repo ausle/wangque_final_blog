@@ -1,0 +1,52 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    password: qwerty
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1/db_wangque_blog?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    ##构建JPA的entityManagerFactory时需要配置jpa的dialect属性，由jpa的实现---->hibernate提供
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  freemarker:
+    #    template-loader-path: classpath:/templates/
+    cache: false
+    charset: utf-8
+    settings:
+      classic_compatible: true #处理空值
+      template_exception_handler: rethrow
+      template_update_delay: 0
+      datetime_format: yyyy-MM-dd HH:mm
+      number_format: 0.##
+    #        auto_import: /utils.ftl as utils
+    #默认是ftlh，需要更改
+    suffix: .ftl
+
+site:
+  version: 3.5.0
+  location: ${user.dir}
+  controls:
+    # 注册开关
+    register: true
+    # 注册开启邮箱验证
+    register_email_validate: false
+    # 发布文章开关
+    post: true
+    # 评论开关
+    comment: true
+  options:
+    theme: classic
+    site_logo: /dist/images/logo/logo.png
+    site_favicon: /dist/images/logo/m.png
+    storage_max_width: 800
+    storage_limit_size: 2
+    editor: markdown
+    thumbnail_channel_size: 200x112
+    thumbnail_post_size: 360x200      #文章头图的宽高，会根据这个宽高去生成缩略图
